@@ -236,25 +236,19 @@ AI 可以修改 frontmatter、摘要块、`#待提炼` 标记和 `[[概念|原�
 
 ![Home 首屏](assets/screenshots/home.png)
 
-年 / 月进度、重要日期和快速导航集中在一屏。
+Dashboard、Important Days、快速导航和日历在同一屏。
 
-### 其他截图位
+### Inbox
 
-| 截图 | 内容 | 展示重点 |
-|---|---|---|
-| `assets/screenshots/dayline.png` | Dayline 日历 + 时间线 | 日记转化为可回看的时间 |
-| `assets/screenshots/process.png` | 加工前后对比 | AI 只增加结构，不修改原文 |
-| `assets/screenshots/output.png` | 自媒体内容页 + 画廊 | 选题到发布在同一页 |
+![Inbox](assets/screenshots/inbox.png)
 
-其余图片放在 `assets/screenshots/`，命名对应即可。截图使用示例日记，避免出现真实日记、客户名、面试进度或私人聊天。
+首页把全库 `加工: 待加工` 的笔记聚成一张表，不依赖文件夹位置。
 
-<!--
-其余图片放好后，把下面这段的注释去掉：
+### 待抓取
 
-![Dayline](assets/screenshots/dayline.png)
-![加工前后](assets/screenshots/process.png)
-![内容页](assets/screenshots/output.png)
--->
+![待抓取](assets/screenshots/pending.png)
+
+微信里发来的链接统一进入「待抓取」面板，攒着以后批量处理。
 
 ---
 
