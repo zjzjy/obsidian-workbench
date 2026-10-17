@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-label="我的 Obsidian 工作台：五条链路">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#B9AC9D"/>
+    </marker>
+    <style>
+      .ink { fill:#2F2A25; }
+      .muted { fill:#8B8177; }
+      .accent { fill:#B85C38; }
+      .green { fill:#637E5E; }
+      .blue { fill:#557383; }
+      .card { fill:#FFFFFF; stroke:#E8DFD3; stroke-width:1.2; }
+      .soft-accent { fill:#F6E7DD; }
+      .soft-green { fill:#E9EFE4; }
+      .soft-blue { fill:#E5EDF1; }
+      .soft-gold { fill:#F5EEDB; }
+      .title { font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif; font-weight:700; }
+      .body { font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif; font-weight:400; }
+      .mono { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace; font-weight:500; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="#FAF7F2"/>
+  <circle cx="1460" cy="70" r="220" fill="#F2E9DC" opacity="0.55"/>
+  <circle cx="90" cy="880" r="180" fill="#F2E9DC" opacity="0.45"/>
+
+  <text x="56" y="72" class="title ink" font-size="42">我的 Obsidian 工作台</text>
+  <text x="58" y="110" class="body muted" font-size="19">5 条链路 · 22 个插件 · 8 个 AI 技能 · 0 个标签</text>
+  <text x="58" y="140" class="body muted" font-size="16">白天只管丢，晚上说一句「加工今天」，第二天打开就能看见。</text>
+  <line x1="56" y1="162" x2="1544" y2="162" stroke="#E2D8CB" stroke-width="1"/>
+
+  <!-- Column 1: capture -->
+  <text x="56" y="202" class="title accent" font-size="20">捕获</text>
+  <text x="56" y="226" class="body muted" font-size="13">入口很多，落点一个</text>
+
+  <rect x="56" y="250" width="286" height="106" rx="16" class="card"/>
+  <circle cx="88" cy="286" r="16" fill="#F6E7DD"/>
+  <text x="82" y="292" font-size="16">✍️</text>
+  <text x="116" y="288" class="title ink" font-size="18">手写</text>
+  <text x="116" y="312" class="body muted" font-size="13">打开当天日记，直接写</text>
+  <rect x="116" y="326" width="94" height="22" rx="11" class="soft-accent"/>
+  <text x="129" y="342" class="mono accent" font-size="11">Templater</text>
+
+  <rect x="56" y="374" width="286" height="106" rx="16" class="card"/>
+  <circle cx="88" cy="410" r="16" fill="#E9EFE4"/>
+  <text x="82" y="416" font-size="16">💬</text>
+  <text x="116" y="412" class="title ink" font-size="18">微信</text>
+  <text x="116" y="436" class="body muted" font-size="13">文字 / 图片 / 语音 / 链接</text>
+  <rect x="116" y="450" width="98" height="22" rx="11" class="soft-green"/>
+  <text x="129" y="466" class="mono green" font-size="11">wechat2ob</text>
+
+  <rect x="56" y="498" width="286" height="106" rx="16" class="card"/>
+  <circle cx="88" cy="534" r="16" fill="#E5EDF1"/>
+  <text x="82" y="540" font-size="16">🌐</text>
+  <text x="116" y="536" class="title ink" font-size="18">网页 / B站 / 小红书</text>
+  <text x="116" y="560" class="body muted" font-size="13">抓成长文稿，带 AI 导读位</text>
+  <rect x="116" y="574" width="152" height="22" rx="11" class="soft-blue"/>
+  <text x="129" y="590" class="mono blue" font-size="11">universal-extractor</text>
+
+  <path d="M344 440 C368 440, 368 440, 392 440" fill="none" stroke="#B9AC9D" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="352" y="425" class="body muted" font-size="11">汇入</text>
+
+  <!-- Column 2: daily note -->
+  <text x="398" y="202" class="title accent" font-size="20">当天日记</text>
+  <text x="398" y="226" class="body muted" font-size="13">唯一落点，七节固定骨架</text>
+  <rect x="398" y="250" width="300" height="354" rx="18" class="card"/>
+  <rect x="398" y="250" width="300" height="54" rx="18" fill="#F6E7DD"/>
+  <rect x="398" y="286" width="300" height="18" fill="#F6E7DD"/>
+  <text x="420" y="276" class="mono accent" font-size="13">2026-10-17.md</text>
+  <text x="420" y="296" class="body muted" font-size="11">date · type · 加工 · 一句话</text>
+
+  <g class="body" font-size="13">
+    <text x="420" y="338" class="ink">今日打卡</text>
+    <text x="420" y="366" class="ink">今天发生了什么</text>
+    <text x="420" y="394" class="ink">感悟</text>
+    <text x="420" y="422" class="ink">灵感</text>
+    <text x="420" y="450" class="ink">明天做什么</text>
+    <text x="420" y="478" class="accent">待抓取</text>
+    <text x="420" y="506" class="accent">随记</text>
+  </g>
+  <g stroke="#EEE6DA" stroke-width="1">
+    <line x1="420" y1="348" x2="676" y2="348"/>
+    <line x1="420" y1="376" x2="676" y2="376"/>
+    <line x1="420" y1="404" x2="676" y2="404"/>
+    <line x1="420" y1="432" x2="676" y2="432"/>
+    <line x1="420" y1="460" x2="676" y2="460"/>
+    <line x1="420" y1="488" x2="676" y2="488"/>
+  </g>
+  <rect x="420" y="530" width="116" height="24" rx="12" class="soft-gold"/>
+  <text x="433" y="547" class="mono" fill="#8A6A18" font-size="11">加工: 待加工</text>
+  <text x="548" y="547" class="body muted" font-size="11">→ Inbox</text>
+
+  <path d="M700 440 C724 440, 724 440, 748 440" fill="none" stroke="#B9AC9D" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- Column 3: process -->
+  <text x="758" y="202" class="title accent" font-size="20">加工</text>
+  <text x="758" y="226" class="body muted" font-size="13">AI 做归位，不做润色</text>
+  <rect x="758" y="250" width="300" height="354" rx="18" class="card"/>
+  <text x="782" y="286" class="title ink" font-size="17">一句「加工今天」</text>
+  <text x="782" y="308" class="body muted" font-size="12">机械归位 + AI 判断，一次走完</text>
+
+  <g class="body" font-size="12">
+    <circle cx="790" cy="338" r="9" fill="#F6E7DD"/><text x="786" y="342" class="accent" font-size="11">1</text>
+    <text x="810" y="342" class="ink">随记切块、链接分流、附件搬家</text>
+    <circle cx="790" cy="370" r="9" fill="#F6E7DD"/><text x="786" y="374" class="accent" font-size="11">2</text>
+    <text x="810" y="374" class="ink">判断归属：项目 / 领域 / 资源</text>
+    <circle cx="790" cy="402" r="9" fill="#F6E7DD"/><text x="786" y="406" class="accent" font-size="11">3</text>
+    <text x="810" y="406" class="ink">补字段、写一句话、挂状态</text>
+    <circle cx="790" cy="434" r="9" fill="#F6E7DD"/><text x="786" y="438" class="accent" font-size="11">4</text>
+    <text x="810" y="438" class="ink">抽双链、标待提炼、建概念候选</text>
+    <circle cx="790" cy="466" r="9" fill="#E9EFE4"/><text x="786" y="470" class="green" font-size="11">5</text>
+    <text x="810" y="470" class="green">已加工，从 Inbox 消失</text>
+  </g>
+
+  <rect x="782" y="502" width="70" height="22" rx="11" class="soft-blue"/>
+  <text x="792" y="518" class="mono blue" font-size="10">Claudian</text>
+  <rect x="858" y="502" width="96" height="22" rx="11" class="soft-blue"/>
+  <text x="868" y="518" class="mono blue" font-size="10">YAML Properties</text>
+  <rect x="960" y="502" width="74" height="22" rx="11" class="soft-blue"/>
+  <text x="970" y="518" class="mono blue" font-size="10">Dataview</text>
+  <text x="782" y="552" class="body muted" font-size="11">红线：正文一个字不改</text>
+  <text x="782" y="572" class="body muted" font-size="11">不静默移动 / 改名 / 合并</text>
+
+  <path d="M1060 440 C1084 440, 1084 440, 1108 440" fill="none" stroke="#B9AC9D" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- Column 4: destinations -->
+  <text x="1118" y="202" class="title accent" font-size="20">去向</text>
+  <text x="1118" y="226" class="body muted" font-size="13">四条支流，各有归宿</text>
+
+  <rect x="1118" y="250" width="426" height="74" rx="14" class="card"/>
+  <rect x="1118" y="250" width="6" height="74" rx="3" fill="#B85C38"/>
+  <text x="1142" y="280" class="title ink" font-size="16">01 Projects / 02 Areas</text>
+  <text x="1142" y="303" class="body muted" font-size="12">项目资料、长期领域、生活记录</text>
+  <text x="1470" y="292" class="mono accent" font-size="11">PARA</text>
+
+  <rect x="1118" y="338" width="426" height="74" rx="14" class="card"/>
+  <rect x="1118" y="338" width="6" height="74" rx="3" fill="#637E5E"/>
+  <text x="1142" y="368" class="title ink" font-size="16">03 Resources / 02 知识</text>
+  <text x="1142" y="391" class="body muted" font-size="12">主题夹 + 00 总览页 + 思维导图</text>
+  <text x="1460" y="380" class="mono green" font-size="11">17 主题</text>
+
+  <rect x="1118" y="426" width="426" height="74" rx="14" class="card"/>
+  <rect x="1118" y="426" width="6" height="74" rx="3" fill="#557383"/>
+  <text x="1142" y="456" class="title ink" font-size="16">02Areas / 05 思考</text>
+  <text x="1142" y="479" class="body muted" font-size="12">被 ≥3 篇引用的概念才建页</text>
+  <text x="1460" y="468" class="mono blue" font-size="11">11 概念</text>
+
+  <rect x="1118" y="514" width="426" height="74" rx="14" class="card"/>
+  <rect x="1118" y="514" width="6" height="74" rx="3" fill="#C9A227"/>
+  <text x="1142" y="544" class="title ink" font-size="16">02Areas / 06 自媒体</text>
+  <text x="1142" y="567" class="body muted" font-size="12">选题 → 脚本 → 配图 → 发布记录</text>
+  <text x="1460" y="556" class="mono" fill="#8A6A18" font-size="11">3 频道</text>
+
+  <!-- Bottom: review surfaces -->
+  <rect x="56" y="660" width="1488" height="220" rx="22" fill="#FFFFFF" stroke="#E8DFD3" stroke-width="1.2"/>
+  <text x="86" y="702" class="title accent" font-size="20">回看与复用</text>
+  <text x="86" y="726" class="body muted" font-size="13">同一批笔记，换三个角度重新出现</text>
+
+  <rect x="86" y="748" width="438" height="98" rx="14" fill="#FBF8F3" stroke="#EEE6DA"/>
+  <text x="108" y="778" class="title ink" font-size="16">🏠 Home 首页</text>
+  <text x="108" y="801" class="body muted" font-size="12">年 / 月进度 · Inbox 归零 · 待抓取 · 最近活动</text>
+  <text x="108" y="824" class="mono accent" font-size="10">Dataview · dataviewjs · Columns · Homepage</text>
+
+  <rect x="546" y="748" width="438" height="98" rx="14" fill="#FBF8F3" stroke="#EEE6DA"/>
+  <text x="568" y="778" class="title ink" font-size="16">📅 Dayline 日历 / 时间线</text>
+  <text x="568" y="801" class="body muted" font-size="12">每天一张缩略图 · 心情色点 · 去年今日</text>
+  <text x="568" y="824" class="mono green" font-size="10">Dayline · 日记 frontmatter · 画廊图片</text>
+
+  <rect x="1006" y="748" width="508" height="98" rx="14" fill="#FBF8F3" stroke="#EEE6DA"/>
+  <text x="1028" y="778" class="title ink" font-size="16">🗓 周记 / 月度任务</text>
+  <text x="1028" y="801" class="body muted" font-size="12">每周清一次 · 习惯格子 · 完整打卡一行</text>
+  <text x="1028" y="824" class="mono blue" font-size="10">Calendar · Tasks · Tasks Calendar Wrapper</text>
+
+  <text x="800" y="936" text-anchor="middle" class="body muted" font-size="14">插件之间不互相调用：它们靠 frontmatter、固定路径、锚点、双链和代码块交接。</text>
+</svg>
