@@ -229,51 +229,28 @@ AI 可以修改 frontmatter、摘要块、`#待提炼` 标记和 `[[概念|原�
 
 </details>
 
----
-
-## 实际效果
-
-| 指标 | 当前数据 |
-|---|---|
-| 日记 | 70+ 篇 |
-| 笔记总量 | 400+ 篇 |
-| 知识主题 | 17 个 |
-| 概念页 | 11 个 |
-| 长文稿 | 13 篇 |
-| 内容模板 | 10 个 |
-| AI 技能 | 8 个 |
-| 社区插件 | 22 个 |
-| 标签 | 0 个 |
-| 动态视图 | 60+ 处 Dataview、20+ 张思维导图、12 个画廊 |
-
-### 使用前后对比
-
-| 以前 | 现在 |
-|---|---|
-| 微信收藏持续堆积 | 发给自己，晚上自动写入当天日记 |
-| 找笔记依赖搜索 | 首页查看 Inbox、待抓取、最近活动 |
-| 日记写完不再回看 | Dayline 日历 / 时间线 / 去年今日 |
-| 知识区只是文件夹 | 每个夹有总览页和思维导图 |
-| 标签越打越乱 | 0 标签，目录 + 字段 + 双链 |
-| 创作流程分散在多个 App | 一页完成选题到发布 |
-
----
 
 ## 界面截图
 
+### Home 首屏
+
+![Home 首屏](assets/screenshots/home.png)
+
+年 / 月进度、重要日期和快速导航集中在一屏。
+
+### 其他截图位
+
 | 截图 | 内容 | 展示重点 |
 |---|---|---|
-| `assets/screenshots/home.png` | Home 首屏 | 统计、Inbox、待抓取、最近活动 |
 | `assets/screenshots/dayline.png` | Dayline 日历 + 时间线 | 日记转化为可回看的时间 |
 | `assets/screenshots/process.png` | 加工前后对比 | AI 只增加结构，不修改原文 |
 | `assets/screenshots/output.png` | 自媒体内容页 + 画廊 | 选题到发布在同一页 |
 
-图片放在 `assets/screenshots/`，命名对应即可。截图使用示例日记，避免出现真实日记、客户名、面试进度或私人聊天。
+其余图片放在 `assets/screenshots/`，命名对应即可。截图使用示例日记，避免出现真实日记、客户名、面试进度或私人聊天。
 
 <!--
-图片放好后，把下面这段的注释去掉：
+其余图片放好后，把下面这段的注释去掉：
 
-![Home](assets/screenshots/home.png)
 ![Dayline](assets/screenshots/dayline.png)
 ![加工前后](assets/screenshots/process.png)
 ![内容页](assets/screenshots/output.png)
