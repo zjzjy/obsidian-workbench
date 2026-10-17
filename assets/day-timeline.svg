@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-label="跟着我过一天：Obsidian 工作台的一天">
+  <defs>
+    <style>
+      .ink { fill:#2F2A25; }
+      .muted { fill:#8B8177; }
+      .accent { fill:#B85C38; }
+      .green { fill:#637E5E; }
+      .blue { fill:#557383; }
+      .card { fill:#FFFFFF; stroke:#E8DFD3; stroke-width:1.2; }
+      .soft-accent { fill:#F6E7DD; }
+      .soft-green { fill:#E9EFE4; }
+      .soft-blue { fill:#E5EDF1; }
+      .body { font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif; font-weight:400; }
+      .title { font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif; font-weight:700; }
+      .mono { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace; font-weight:500; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="640" fill="#FAF7F2"/>
+  <circle cx="1490" cy="60" r="180" fill="#F2E9DC" opacity="0.6"/>
+
+  <text x="56" y="66" class="title ink" font-size="38">跟着我过一天</text>
+  <text x="58" y="100" class="body muted" font-size="17">五个小动作，覆盖「捕获 → 加工 → 回看」</text>
+  <text x="58" y="128" class="body muted" font-size="15">每一步只做一件小事，不需要先想「这东西放哪」。</text>
+  <line x1="56" y1="150" x2="1544" y2="150" stroke="#E2D8CB" stroke-width="1"/>
+
+  <line x1="100" y1="236" x2="1500" y2="236" stroke="#D8CCBD" stroke-width="2"/>
+
+  <!-- 08:00 -->
+  <text x="220" y="196" text-anchor="middle" class="title accent" font-size="21">08:00</text>
+  <circle cx="220" cy="236" r="11" fill="#B85C38" stroke="#FAF7F2" stroke-width="4"/>
+  <line x1="220" y1="247" x2="220" y2="286" stroke="#D8CCBD" stroke-width="1.5"/>
+  <rect x="95" y="286" width="250" height="250" rx="16" class="card"/>
+  <text x="117" y="322" class="title ink" font-size="17">打开今天</text>
+  <text x="117" y="350" class="body muted" font-size="12">七节骨架已经建好</text>
+  <text x="117" y="372" class="body muted" font-size="12">直接写，不用起标题</text>
+  <rect x="117" y="396" width="76" height="22" rx="11" class="soft-accent"/>
+  <text x="127" y="412" class="mono accent" font-size="10">Templater</text>
+  <rect x="199" y="396" width="58" height="22" rx="11" class="soft-accent"/>
+  <text x="209" y="412" class="mono accent" font-size="10">Dayline</text>
+  <text x="117" y="456" class="body muted" font-size="11">今日打卡 · 发生 · 感悟</text>
+  <text x="117" y="476" class="body muted" font-size="11">灵感 · 明天 · 待抓取 · 随记</text>
+
+  <!-- 10:00 -->
+  <text x="510" y="196" text-anchor="middle" class="title accent" font-size="21">10:00</text>
+  <circle cx="510" cy="236" r="11" fill="#637E5E" stroke="#FAF7F2" stroke-width="4"/>
+  <line x1="510" y1="247" x2="510" y2="286" stroke="#D8CCBD" stroke-width="1.5"/>
+  <rect x="385" y="286" width="250" height="250" rx="16" class="card"/>
+  <text x="407" y="322" class="title ink" font-size="17">微信发给自己</text>
+  <text x="407" y="350" class="body muted" font-size="12">文字 / 图片 / 语音 / 链接</text>
+  <text x="407" y="372" class="body muted" font-size="12">自动落到当天日记</text>
+  <rect x="407" y="396" width="88" height="22" rx="11" class="soft-green"/>
+  <text x="417" y="412" class="mono green" font-size="10">WeChat2Ob</text>
+  <text x="407" y="456" class="body muted" font-size="11">链接进「待抓取」</text>
+  <text x="407" y="476" class="body muted" font-size="11">不用切 App，也不用收藏</text>
+
+  <!-- 14:00 -->
+  <text x="800" y="196" text-anchor="middle" class="title accent" font-size="21">14:00</text>
+  <circle cx="800" cy="236" r="11" fill="#557383" stroke="#FAF7F2" stroke-width="4"/>
+  <line x1="800" y1="247" x2="800" y2="286" stroke="#D8CCBD" stroke-width="1.5"/>
+  <rect x="675" y="286" width="250" height="250" rx="16" class="card"/>
+  <text x="697" y="322" class="title ink" font-size="17">长文丢给 AI</text>
+  <text x="697" y="350" class="body muted" font-size="12">网页 / B站 / 小红书</text>
+  <text x="697" y="372" class="body muted" font-size="12">抓成带导读位的长文稿</text>
+  <rect x="697" y="396" width="132" height="22" rx="11" class="soft-blue"/>
+  <text x="707" y="412" class="mono blue" font-size="10">universal-extractor</text>
+  <text x="697" y="456" class="body muted" font-size="11">存进 Clippings</text>
+  <text x="697" y="476" class="body muted" font-size="11">回头只看折叠导读也行</text>
+
+  <!-- 22:30 -->
+  <text x="1090" y="196" text-anchor="middle" class="title accent" font-size="21">22:30</text>
+  <circle cx="1090" cy="236" r="11" fill="#B85C38" stroke="#FAF7F2" stroke-width="4"/>
+  <line x1="1090" y1="247" x2="1090" y2="286" stroke="#D8CCBD" stroke-width="1.5"/>
+  <rect x="965" y="286" width="250" height="250" rx="16" class="card"/>
+  <text x="987" y="322" class="title ink" font-size="17">说「加工今天」</text>
+  <text x="987" y="350" class="body muted" font-size="12">归位 · 补字段 · 写一句话</text>
+  <text x="987" y="372" class="body muted" font-size="12">抽双链 · Inbox 归零</text>
+  <rect x="987" y="396" width="64" height="22" rx="11" class="soft-accent"/>
+  <text x="997" y="412" class="mono accent" font-size="10">Claudian</text>
+  <rect x="1057" y="396" width="68" height="22" rx="11" class="soft-accent"/>
+  <text x="1067" y="412" class="mono accent" font-size="10">Dataview</text>
+  <text x="987" y="456" class="body muted" font-size="11">正文一个字不改</text>
+  <text x="987" y="476" class="body muted" font-size="11">拿不准就停下来问</text>
+
+  <!-- next morning -->
+  <text x="1380" y="196" text-anchor="middle" class="title accent" font-size="21">次日 09:00</text>
+  <circle cx="1380" cy="236" r="11" fill="#C9A227" stroke="#FAF7F2" stroke-width="4"/>
+  <line x1="1380" y1="247" x2="1380" y2="286" stroke="#D8CCBD" stroke-width="1.5"/>
+  <rect x="1255" y="286" width="250" height="250" rx="16" class="card"/>
+  <text x="1277" y="322" class="title ink" font-size="17">打开 Home</text>
+  <text x="1277" y="350" class="body muted" font-size="12">昨天的一句话、待办、图</text>
+  <text x="1277" y="372" class="body muted" font-size="12">日历和时间线都能看</text>
+  <rect x="1277" y="396" width="70" height="22" rx="11" fill="#F5EEDB"/>
+  <text x="1287" y="412" class="mono" fill="#8A6A18" font-size="10">Homepage</text>
+  <rect x="1353" y="396" width="58" height="22" rx="11" fill="#F5EEDB"/>
+  <text x="1363" y="412" class="mono" fill="#8A6A18" font-size="10">Dayline</text>
+  <text x="1277" y="456" class="body muted" font-size="11">Inbox 应该已经归零</text>
+  <text x="1277" y="476" class="body muted" font-size="11">「去年今日」也在这里</text>
+
+  <rect x="95" y="566" width="1410" height="48" rx="14" fill="#FFFFFF" stroke="#E8DFD3"/>
+  <text x="117" y="596" class="body muted" font-size="13">周日：点一下 Calendar 的周数 → 生成周记；月度任务里看习惯格子和「完整打卡」。</text>
+  <rect x="1206" y="578" width="66" height="22" rx="11" class="soft-blue"/>
+  <text x="1216" y="594" class="mono blue" font-size="10">Calendar</text>
+  <rect x="1278" y="578" width="48" height="22" rx="11" class="soft-blue"/>
+  <text x="1288" y="594" class="mono blue" font-size="10">Tasks</text>
+  <rect x="1332" y="578" width="150" height="22" rx="11" class="soft-blue"/>
+  <text x="1342" y="594" class="mono blue" font-size="10">habit / 打卡 tracker</text>
+</svg>
