@@ -143,11 +143,11 @@ AI 可以动 frontmatter、摘要块、`#待提炼` 标记、`[[概念|原文片
 
 ---
 
-## 一张图看全貌
+## 系统全景
 
-[![系统全景](assets/workflow-map.svg)](assets/workflow-map.svg)
+把上面的动作连起来，就是一条很短的流水线：**捕获 → 当天日记 → 加工 → 去向 → 回看**。
 
-> 图比较宽，点开可以看大图：捕获 → 当天日记 → 加工 → 去向 → 回看。
+想看完整的大图，可以打开 [`assets/workflow-map.svg`](assets/workflow-map.svg)。
 
 ---
 
