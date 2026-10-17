@@ -145,7 +145,9 @@ AI 可以动 frontmatter、摘要块、`#待提炼` 标记、`[[概念|原文片
 
 ## 一张图看全貌
 
-![工作台全景](assets/workflow-map.svg)
+[![系统全景](assets/workflow-map.svg)](assets/workflow-map.svg)
+
+> 图比较宽，点开可以看大图：捕获 → 当天日记 → 加工 → 去向 → 回看。
 
 ---
 
