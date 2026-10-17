@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1040" viewBox="0 0 900 1040" role="img" aria-label="Obsidian 工作台的日常使用流程">
+  <defs>
+    <style>
+      .ink { fill:#2F2A25; }
+      .muted { fill:#7E7469; }
+      .accent { fill:#B85C38; }
+      .green { fill:#5F7A5A; }
+      .blue { fill:#557383; }
+      .gold { fill:#8A6A18; }
+      .card { fill:#FFFFFF; stroke:#E6DCCF; stroke-width:1.2; }
+      .soft-accent { fill:#F6E7DD; }
+      .soft-green { fill:#E9EFE4; }
+      .soft-blue { fill:#E5EDF1; }
+      .soft-gold { fill:#F5EEDB; }
+      .body { font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif; font-weight:400; }
+      .title { font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif; font-weight:700; }
+      .mono { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace; font-weight:500; }
+    </style>
+  </defs>
+
+  <rect width="900" height="1040" fill="#FAF7F2"/>
+  <circle cx="850" cy="70" r="120" fill="#F2E9DC" opacity="0.6"/>
+
+  <text x="40" y="56" class="title ink" font-size="34">日常使用流程</text>
+  <text x="42" y="88" class="body muted" font-size="17">捕获 → 加工 → 回看 → 沉淀 → 输出</text>
+  <text x="42" y="112" class="body muted" font-size="15">每一步都有明确的输入和输出，插件只负责其中一段。</text>
+  <line x1="40" y1="130" x2="860" y2="130" stroke="#E2D8CB" stroke-width="1"/>
+
+  <line x1="150" y1="160" x2="150" y2="980" stroke="#D8CCBD" stroke-width="2"/>
+
+  <!-- 01 capture -->
+  <text x="128" y="182" text-anchor="end" class="title accent" font-size="17">01</text>
+  <text x="128" y="206" text-anchor="end" class="title ink" font-size="16">捕获</text>
+  <circle cx="150" cy="180" r="8" fill="#B85C38" stroke="#FAF7F2" stroke-width="4"/>
+  <rect x="180" y="150" width="680" height="150" rx="14" class="card"/>
+  <text x="204" y="184" class="title ink" font-size="21">所有内容先进入当天日记</text>
+  <text x="204" y="214" class="body muted" font-size="15">手写、微信、网页、B站、小红书、手机 Inbox</text>
+  <text x="204" y="238" class="body muted" font-size="15">带链接的进入「待抓取」，图片和文件先进中转区</text>
+  <rect x="204" y="258" width="82" height="22" rx="11" class="soft-accent"/>
+  <text x="214" y="274" class="mono accent" font-size="11">Templater</text>
+  <rect x="292" y="258" width="92" height="22" rx="11" class="soft-green"/>
+  <text x="302" y="274" class="mono green" font-size="11">WeChat2Ob</text>
+  <rect x="390" y="258" width="138" height="22" rx="11" class="soft-blue"/>
+  <text x="400" y="274" class="mono blue" font-size="11">universal-extractor</text>
+
+  <!-- 02 process -->
+  <text x="128" y="352" text-anchor="end" class="title accent" font-size="17">02</text>
+  <text x="128" y="376" text-anchor="end" class="title ink" font-size="16">加工</text>
+  <circle cx="150" cy="350" r="8" fill="#B85C38" stroke="#FAF7F2" stroke-width="4"/>
+  <rect x="180" y="320" width="680" height="150" rx="14" class="card"/>
+  <text x="204" y="354" class="title ink" font-size="21">一句「加工今天」完成归位</text>
+  <text x="204" y="384" class="body muted" font-size="15">切块、搬附件、判断归属、补字段、写一句话</text>
+  <text x="204" y="408" class="body muted" font-size="15">抽双链、标待提炼、把状态改成「已加工」</text>
+  <rect x="204" y="428" width="72" height="22" rx="11" class="soft-accent"/>
+  <text x="214" y="444" class="mono accent" font-size="11">Claudian</text>
+  <rect x="282" y="428" width="104" height="22" rx="11" class="soft-accent"/>
+  <text x="292" y="444" class="mono accent" font-size="11">YAML Properties</text>
+  <rect x="392" y="428" width="76" height="22" rx="11" class="soft-accent"/>
+  <text x="402" y="444" class="mono accent" font-size="11">Dataview</text>
+
+  <!-- 03 review -->
+  <text x="128" y="522" text-anchor="end" class="title accent" font-size="17">03</text>
+  <text x="128" y="546" text-anchor="end" class="title ink" font-size="16">回看</text>
+  <circle cx="150" cy="520" r="8" fill="#557383" stroke="#FAF7F2" stroke-width="4"/>
+  <rect x="180" y="490" width="680" height="150" rx="14" class="card"/>
+  <text x="204" y="524" class="title ink" font-size="21">首页、日历、任务与周记</text>
+  <text x="204" y="554" class="body muted" font-size="15">Home：Inbox、待抓取、年 / 月进度、最近活动</text>
+  <text x="204" y="578" class="body muted" font-size="15">Dayline：缩略图、心情色点、时间线、去年今日</text>
+  <rect x="204" y="598" width="78" height="22" rx="11" class="soft-blue"/>
+  <text x="214" y="614" class="mono blue" font-size="11">Homepage</text>
+  <rect x="288" y="598" width="62" height="22" rx="11" class="soft-blue"/>
+  <text x="298" y="614" class="mono blue" font-size="11">Dayline</text>
+  <rect x="356" y="598" width="70" height="22" rx="11" class="soft-blue"/>
+  <text x="366" y="614" class="mono blue" font-size="11">Calendar</text>
+  <rect x="432" y="598" width="54" height="22" rx="11" class="soft-blue"/>
+  <text x="442" y="614" class="mono blue" font-size="11">Tasks</text>
+
+  <!-- 04 knowledge -->
+  <text x="128" y="692" text-anchor="end" class="title accent" font-size="17">04</text>
+  <text x="128" y="716" text-anchor="end" class="title ink" font-size="16">沉淀</text>
+  <circle cx="150" cy="690" r="8" fill="#5F7A5A" stroke="#FAF7F2" stroke-width="4"/>
+  <rect x="180" y="660" width="680" height="150" rx="14" class="card"/>
+  <text x="204" y="694" class="title ink" font-size="21">总览页、思维导图与概念页</text>
+  <text x="204" y="724" class="body muted" font-size="15">每个主题夹生成 00 总览页：统计 + 列表 + 可点导图</text>
+  <text x="204" y="748" class="body muted" font-size="15">被 3 篇以上笔记引用的概念，才建独立页并归并同义词</text>
+  <rect x="204" y="768" width="76" height="22" rx="11" class="soft-green"/>
+  <text x="214" y="784" class="mono green" font-size="11">Dataview</text>
+  <rect x="286" y="768" width="86" height="22" rx="11" class="soft-green"/>
+  <text x="296" y="784" class="mono green" font-size="11">Mind Elixir</text>
+  <rect x="378" y="768" width="76" height="22" rx="11" class="soft-green"/>
+  <text x="388" y="784" class="mono green" font-size="11">Backlinks</text>
+
+  <!-- 05 output -->
+  <text x="128" y="862" text-anchor="end" class="title accent" font-size="17">05</text>
+  <text x="128" y="886" text-anchor="end" class="title ink" font-size="16">输出</text>
+  <circle cx="150" cy="860" r="8" fill="#C9A227" stroke="#FAF7F2" stroke-width="4"/>
+  <rect x="180" y="830" width="680" height="150" rx="14" class="card"/>
+  <text x="204" y="864" class="title ink" font-size="21">选题、脚本、配图与发布记录</text>
+  <text x="204" y="894" class="body muted" font-size="15">一个内容页固定五段，不再跨 App 和文件夹</text>
+  <text x="204" y="918" class="body muted" font-size="15">DLink 画廊放配图，发布字段回填状态、日期和链接</text>
+  <rect x="204" y="938" width="82" height="22" rx="11" class="soft-gold"/>
+  <text x="214" y="954" class="mono gold" font-size="11">Templater</text>
+  <rect x="292" y="938" width="54" height="22" rx="11" class="soft-gold"/>
+  <text x="302" y="954" class="mono gold" font-size="11">DLink</text>
+  <rect x="352" y="938" width="98" height="22" rx="11" class="soft-gold"/>
+  <text x="362" y="954" class="mono gold" font-size="11">Block Editor</text>
+
+  <text x="40" y="1010" class="body muted" font-size="14">核心约束：所有内容先进入当天日记，再在加工阶段决定去向；AI 只补结构，不改原文。</text>
+</svg>
